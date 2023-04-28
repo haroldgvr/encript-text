@@ -48,4 +48,6 @@ if (texto.length != 0){
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
         swal("Oooops!", "Debes ingresar u texto", "warning")
     }
+
+    
 }
