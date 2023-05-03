@@ -48,6 +48,13 @@ if (texto.length != 0){
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar"
         swal("Oooops!", "Debes ingresar u texto", "warning")
     }
-
-    
 }
+// Si le quito la funcion si me deja hacer la accion de refresh pero si dejo la funcion activa no hace la accion//
+
+function refresh(){
+let refresh = document.getElementById('refresh');
+refresh.addEventListener('click', _ => {
+            location.reload();
+})
+}
+
